@@ -1,0 +1,9 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: esDemo  #指定服务名称
+  data:
+    elasticsearch:
+      clusterNodes: 127.0.0.1:9300
+
